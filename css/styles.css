@@ -3,7 +3,7 @@ img {
   padding: 4px;
   margin: 40px 0px 40px 0px;
   border-radius: 20px;
-  
+
 }
 h1 {
   font-size: 70px;
@@ -11,5 +11,13 @@ h1 {
   font-weight: 400;
 }
 .bold {
-  background: black;
+  background: rgba(0,0,0,0.5);
+}
+@media screen (max-width: 500px){
+  body {
+    background: red;
+  }
+}
+header {
+  text-align: center;
 }
