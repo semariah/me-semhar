@@ -1,38 +1,37 @@
 img {
   border: 7px solid black;
   padding: 4px;
-  margin: 40px 0px 40px 0px;
+  margin: 40px 0px 0 0px;
   border-radius: 20px;
 }
 
 h1 {
   font-size: 70px;
-  font-family: 'Londrina Shadow', cursive;
   font-weight: 400;
   border: 12px;
-  padding-bottom: 30px
-  margin: 0 60px 0 0;
-  color: #aaaaaa
+  padding-bottom: 20px;
 }
 
 h4 {
-  font-style: oblique;
+  font-style: italic;
 }
 
-input [type="submit"]{
-  background: red;
-  color: white;
+.contact {
+  padding-bottom: 20px;
 }
+
 
 .bold {
   background: rgba(0,0,0,0.5);
 }
+
 @media screen (max-width: 500px){
   body {
     background: red;
   }
+
 }
 header {
   text-align: center;
-  background: url ('https://imgur.com/RCDNSR7');
+  background-image: url("https://i.imgur.com/s67C2Oe.jpg");
 }
