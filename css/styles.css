@@ -19,17 +19,12 @@ h4 {
 .contact {
   padding-bottom: 20px;
 }
-
-
-.bold {
-  background: rgba(0,0,0,0.5);
-}
-
-@media screen (max-width: 500px){
+/*
+@media screen (max-width: 300px){
   body {
     background: red;
   }
-
+*/
 }
 header {
   text-align: center;
