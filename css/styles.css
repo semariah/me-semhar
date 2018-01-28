@@ -3,13 +3,27 @@ img {
   padding: 4px;
   margin: 40px 0px 40px 0px;
   border-radius: 20px;
-
 }
+
 h1 {
   font-size: 70px;
-  font-style: normal;
+  font-family: 'Londrina Shadow', cursive;
   font-weight: 400;
+  border: 12px;
+  padding-bottom: 30px
+  margin: 0 60px 0 0;
+  color: #aaaaaa
 }
+
+h4 {
+  font-style: oblique;
+}
+
+input [type="submit"]{
+  background: red;
+  color: white;
+}
+
 .bold {
   background: rgba(0,0,0,0.5);
 }
